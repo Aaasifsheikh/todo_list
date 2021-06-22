@@ -1,0 +1,41 @@
+.main-div{
+    background: rgb(39, 39, 129);
+    width: 100vw;
+    height: 100vh;
+}
+.child-div{
+    margin-left: 30rem;
+
+}
+.child-div h2{
+    color: white;
+}
+.add-item button{
+    height: 2rem;
+    margin-left: 1rem;
+    background: green;
+    color: white;
+}
+.add-item{
+    width: 50vh;
+    display: flex;
+    justify-content: space-around;
+    place-items: center;
+}
+
+.eachItem{
+    display: flex;
+    margin-top: 2rem;
+
+}
+.eachItem h3{
+    background: white;
+    border: 1px solid white;
+    width: 30%;
+}
+.eachItem button{
+    height: 2rem;
+    background: red;
+    color: white;
+    margin-left: 1rem;;
+}
